@@ -34,6 +34,11 @@ target 'octavio_avaliacao_gol' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+  pod 'react-native-maps', :path => '../node_modules/react-native-maps'
+  
+
+  pod 'react-native-geolocation', :path => '../node_modules/@react-native-community/geolocation'
+
   target 'octavio_avaliacao_golTests' do
     inherit! :search_paths
     # Pods for testing
